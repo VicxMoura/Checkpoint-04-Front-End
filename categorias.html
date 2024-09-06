@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias - E-commerce Sustentável</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <!-- Estilos Personalizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./Imagens/Logo.png" alt="Logo Sustentável">
+            </a>            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navbar-nav-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categorias.html">Categorias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produto.html">Produto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo da Página de Categorias -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Filtros Laterais -->
+            <div class="col-md-3">
+                <h4>Filtrar Produtos</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="priceRange">Preço</label>
+                        <input type="range" class="form-control-range" id="priceRange">
+                    </div>
+                    <div class="form-group">
+                        <label>Tipo de Produto</label><br>
+                        <input type="checkbox"> Roupas e Acessórios<br>
+                        <input type="checkbox"> Beleza e Cuidados<br>
+                        <input type="checkbox"> Casa<br>
+                        <input type="checkbox"> Tecnologia
+                    </div>
+                    <div class="form-group">
+                        <label>Marca</label><br>
+                        <input type="checkbox"> Marca A<br>
+                        <input type="checkbox"> Marca B<br>
+                        <input type="checkbox"> Marca C
+                    </div>
+                    <button type="submit" class="btn btn-success">Aplicar Filtros</button>
+                </form>
+            </div>
+
+            <!-- Lista de Produtos -->
+            <div class="col-md-9">
+                <div class="row">
+                    <!-- Card de Produto -->
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Camiseta de Algodão Orgânico.webp" class="card-img-top" alt="Camiseta de Algodão Orgânico">
+                            <div class="card-body">
+                                <h5 class="card-title">Camiseta de Algodão Orgânico</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 89,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Calça Jeans Reciclada.jpg" class="card-img-top" alt="Calça Jeans Reciclada">
+                            <div class="card-body">
+                                <h5 class="card-title">Calça Jeans Reciclada</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 149,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Mochilas de Fibra de Bambu.jpg" class="card-img-top" alt="Mochilas de Fibra de Bambu">
+                            <div class="card-body">
+                                <h5 class="card-title">Mochilas de Fibra de Bambu</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 229,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Óculos de Sol de Madeira.webp" class="card-img-top" alt="Óculos de Sol de Madeira">
+                            <div class="card-body">
+                                <h5 class="card-title">Óculos de Sol de Madeira</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 199,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Tênis Vegan.jfif" class="card-img-top" alt="Tênis Vegan">
+                            <div class="card-body">
+                                <h5 class="card-title">Tênis Vegan</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 249,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Shampoo e Condicionador Sólidos Naturais.png" class="card-img-top" alt="Shampoo e Condicionador Sólidos Naturais">
+                            <div class="card-body">
+                                <h5 class="card-title">Shampoo e Condicionador Sólidos Naturais</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 39,90 (cada)</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Sabonetes Artesanais.jpg" class="card-img-top" alt="Sabonetes Artesanais">
+                            <div class="card-body">
+                                <h5 class="card-title">Sabonetes Artesanais</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 24,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Cremes Hidratantes Orgânicos.webp" class="card-img-top" alt="Cremes Hidratantes Orgânicos">
+                            <div class="card-body">
+                                <h5 class="card-title">Cremes Hidratantes Orgânicos</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 59,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Escovas de Dentes de Bambu.webp" class="card-img-top" alt="Escovas de Dentes de Bambu">
+                            <div class="card-body">
+                                <h5 class="card-title">Escovas de Dentes de Bambu</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 14,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Desodorates Naturais.webp" class="card-img-top" alt="Desodorantes Naturais">
+                            <div class="card-body">
+                                <h5 class="card-title">Desodorantes Naturais</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 29,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Garrafa Térmica de Aço Inoxidável.webp" class="card-img-top" alt="Garrafa Térmica de Aço Inoxidável">
+                            <div class="card-body">
+                                <h5 class="card-title">Garrafa Térmica de Aço Inoxidável</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 89,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Talheres de Bambu Reutilizáveis.jfif" class="card-img-top" alt="Talheres de Bambu Reutilizáveis">
+                            <div class="card-body">
+                                <h5 class="card-title">Talheres de Bambu Reutilizáveis</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 39,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Velas de Soja Artesanais.avif" class="card-img-top" alt="Velas de Soja Artesanais">
+                            <div class="card-body">
+                                <h5 class="card-title">Velas de Soja Artesanais</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 49,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Panos de Cera de Abelha.jfif" class="card-img-top" alt="Panos de Cera de Abelha">
+                            <div class="card-body">
+                                <h5 class="card-title">Panos de Cera de Abelha</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 59,90 (pacote com 3)</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Lâmpadas LED Sustentáveis.webp" class="card-img-top" alt="Lâmpadas LED Sustentáveis">
+                            <div class="card-body">
+                                <h5 class="card-title">Lâmpadas LED Sustentáveis</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 29,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Carregadores Solares Portáteis.webp" class="card-img-top" alt="Carregadores Solares Portáteis">
+                            <div class="card-body">
+                                <h5 class="card-title">Carregadores Solares Portáteis</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 199,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Fones de Ouvido Sustentáveis.webp" class="card-img-top" alt="Fones de Ouvido Sustentáveis">
+                            <div class="card-body">
+                                <h5 class="card-title">Fones de Ouvido Sustentáveis</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 149,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Luminárias de Energia Solar para Exteriores.webp" class="card-img-top" alt="Luminárias de Energia Solar para Exteriores">
+                            <div class="card-body">
+                                <h5 class="card-title">Luminárias de Energia Solar para Exteriores</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 89,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Capas de Celular Biodegradáveis.jfif" class="card-img-top" alt="Capas de Celular Biodegradáveis">
+                            <div class="card-body">
+                                <h5 class="card-title">Capas de Celular Biodegradáveis</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 69,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./Imagens/Itens/Purificadores de Água Portáteis.jpg" class="card-img-top" alt="Purificadores de Água Portáteis">
+                            <div class="card-body">
+                                <h5 class="card-title">Purificadores de Água Portáteis</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="price">R$ 249,90</span>
+                                    <button class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+        <p>Siga-nos nas redes sociais:</p>
+        <a href="#" class="text-white"><i class="fab fa-facebook-f mx-2"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-instagram mx-2"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-twitter mx-2"></i></a>
+        <p class="mt-3">&copy; 2024 E-commerce Sustentável. Todos os direitos reservados.</p>
+        <p class="mt-3">Nossa política é especializar-se em produtos sustentáveis e ecológicos, focando em promover um estilo de vida mais consciente e sustentável.</p>
+    </footer>
+
+    <!-- JavaScript do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.carousel-inner img {
+    height: 700px; 
+    object-fit: cover; 
+}
+
+.navbar-brand img {
+    height: 30px; 
+}
+
+h1 {
+    color: green;
+}
+
+.product-card {
+    margin-bottom: 20px;
+}
